@@ -1,5 +1,5 @@
 import React from 'react';
-// import SearchIndex from './SearchIndex';
+import SearchIndex from './SearchIndex';
 import { Container } from 'reactstrap';
  
 const Search = () => {
@@ -12,17 +12,17 @@ const Search = () => {
        <hr />
        <ul>
          <li>
-           ability to accept a search term from a user
+           Ability to accept a search term from a user
+           {<SearchIndex />}
          </li>
          <li>
-            ability to filter the array in the state by that term
+            Ability to filter the array in the state by that term
          </li>
          <li>
-            ability to display only the terms that match the search, or all if no search term is provided
+            Ability to display only the terms that match the search, or all if no search term is provided
          </li>
        </ul>
        <hr />
-       {/* <SearchIndex /> */}
      </Container>
    );
 
