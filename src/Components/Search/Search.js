@@ -7,19 +7,13 @@ const Search = () => {
      <Container className="App">
      <br />
        <h1 className="App-intro">
-     In this challenge your goal is to use the existing code to create the following: 
+     Searching for a Term: 
        </h1>
        <hr />
        <ul>
          <li>
-           Ability to accept a search term from a user
+           Search Here
            {<SearchIndex />}
-         </li>
-         <li>
-            Ability to filter the array in the state by that term
-         </li>
-         <li>
-            Ability to display only the terms that match the search, or all if no search term is provided
          </li>
        </ul>
        <hr />
